@@ -26,8 +26,9 @@ I recommend watching at least the following videos:
 
 ### Additional Steps for LTS Releases
 1. Get `composer update --no-scripts` to run. Remove any dependencies that are no longer used. If you are stuck, check out this [very useful video on dealing with composer dependencies](https://laravelshift.com/videos/update-incompatible-composer-dependencies).
-2. Attempt to run `php artisan` to make sure that the application runs. Resolve any issues.
-3. Move on to merging the PR.
+2. Clear config, route, or view cache.
+3. Attempt to run `php artisan` to make sure that the application runs. Resolve any issues.
+4. Move on to merging the PR.
 
 ## When you finish shifting
 1. Copy any customizations from your pre-shift code on defaulted files, and paste them back into your code. Refactor with any modifications as necessary.
